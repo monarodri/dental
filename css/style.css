@@ -1,0 +1,476 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+body {
+	background-color: #4F4F4F;
+	font-family: "Open Sans", "Arial", sans-serif;
+	font-size: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: inherit;
+}
+
+textarea {
+	overflow: auto;
+}
+
+#page {
+	background-color: #ffffff;
+	width: 540px;
+	height: 720px;
+	margin: 0 auto;
+	padding: 36px;
+	position: relative;
+}
+
+#sectionbar {
+	background-color: #c0e6e7;
+	display: flex;
+	align-items: center;
+	width: 540px;
+	height: 28px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+#subsectionbar {
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+	width: 540px;
+	height: 28px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+label{
+	display: block;
+}
+
+input, select {
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	float: left;
+	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+/*** Page 2 ***/
+
+.two, input {
+	margin-bottom: 10px;
+}
+
+/*** Page 3 ***/
+
+.three input {
+	width: 10%;
+	margin-bottom: 14px;
+	margin-top: 0;
+}
+
+.exoption {
+	display: flex;
+	align-items: center;
+	margin: 0 auto 20px auto;
+	width: 423px;
+	height: 182px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.exoption .image-container {
+	width: 182px;
+	height: 182px;
+}
+
+.exoption .info {
+	width: 242px;
+	height: 179px;
+}
+
+.exoption .info input {
+	margin-bottom: 10px;
+}
+
+.exoption p {
+	text-align: center;
+}
+
+.exoption h4 {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#extitle {
+	width: 100%;
+	margin: 35px auto 0 auto;
+	display: inline-flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.app-options {
+	margin: 0 auto 20px auto;
+	background-color: #f2f2f2;
+	width: 423px;
+	height: 182px;
+}
+
+.app-options .container {
+	width: 190px;
+	height: 80px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.app-options .subtext {
+	color: #007aad;
+}
+
+.three .radiobtn {
+	margin-bottom: 20px;
+}
+
+.app-options .info {
+	padding-top: 12px;
+}
+
+.app-options h4 {
+	text-align: center;
+}
+
+/*** Page 4 ***/
+
+.four input {
+	width: 100px;
+}
+
+.four #subsectionbar {
+	margin-bottom: 0;
+}
+
+.chairtotal {
+	display: flex;
+	flex-direction: column;
+}
+
+.wastewater {
+	display: flex;
+}
+
+.amalgam-sep {
+	display: flex;
+}
+
+.amalgam-sep .info {
+	width: 355px;
+	padding: 20px 20px 20px 0;
+}
+
+.amalgam-sep .count {
+	width: 126px;
+	padding: 20px;
+	background-color: #f6fbfb;
+}
+
+.four .radiobtn, .six .radiobtn {
+	width: 25px;
+	height: 15px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.amalgam-sep .radiobtn {
+	width: 25px;
+	height: 15px;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.amalgam-sep .radiobtnv2 {
+	width: 25px;
+	height: 15px;
+	margin-bottom: 100px;
+	margin-top: 0;
+}
+
+.amalgam-sep h4 {
+	text-align: center;
+	color: #007aad;
+}
+
+.three span, .four span, .six span, .seven span {
+	color: #33c3bf;
+}
+
+.count form {
+	text-align: center;
+}
+
+.count input {
+	margin-left: 15px;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: #a0a0a0;
+}
+
+/*** Page 5 ***/
+
+.five .container {
+	width: 540px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.five input {
+	margin-bottom: 0;
+}
+
+.five .radiobtn {
+	width: 25px;
+	height: 15px;
+	margin-top: 0;
+}
+
+.five h2 {
+	color: #ffffff;
+	letter-spacing: 0.2px;
+}
+
+#form-container {
+	padding: 10px;
+	display: flex;
+}
+
+#form-containerv2 {
+	padding: 10px;
+	display: flex;
+}
+
+#form-container input {
+	width: 50%;
+	margin-top: 0;
+}
+
+#form-containerv2 input {
+	width: 20%;
+	margin-top: 0;
+	margin-left: 30px;
+}
+
+#as-head {
+	width: 540px;
+	height: 28px;
+	background-color: #007aad;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#as-subhead {
+	width: 540px;
+	height: 28px;
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#as-subhead .sub {
+	width: 50%;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+}
+
+#spacer {
+	margin-right: 10px;
+}
+
+/*** Page 6 ***/
+
+.six #subsectionbar {
+	margin-top: 0;
+}
+
+.six .container{
+	display: flex;
+	margin-top: 20px;
+	width: 92.5%;
+	padding: 20px;
+	background-color: #f6fbfb;
+}
+
+.six .threefifths {
+	margin-right: 0;
+}
+
+.six .radiobtnv2 {
+	width: 25px;
+	height: 15px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.largeform {
+	height: 290px;
+}
+
+input.largeform {
+	margin-top: 0;
+	margin-bottom: 0;
+	border-radius: 0 0 4px 4px;
+}
+
+/*** Page 7 ***/
+
+#page.seven {
+	height: 770px;
+}
+
+.seven .container {
+	display: flex;
+	width: 92.5%;
+	padding: 20px;
+	background-color: #f6fbfb;
+}
+
+.seven #sectionbar {
+	margin-bottom: 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.seven .radiobtn {
+	width: 25px;
+	height: 15px;
+	margin-bottom: 90px;
+	margin-top: 0;
+}
+
+.radiobtnv3 {
+	width: 25px;
+	height: 15px;
+	margin-bottom: 35px;
+	margin-top: 0;
+}
+
+.seven blockquote {
+	width: 93%;
+	margin-left: 30px;
+}
+
+/*** Footer ***/
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 89%;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#footer h5 {
+	margin-left: 0;
+}
+
+#footer.begin {
+	justify-content: flex-end;
+}
+
+/*** Text Form Sizes ***/
+
+.threefifths {
+	float: left;
+	width: 330px;
+	margin-right: 10px; 
+}
+
+.fifth {
+	float: left;
+	width: 95px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.fifth:last-child {
+	margin-right: 0;
+}
+
+.half {
+	float: left;
+	width: 265px;
+	margin-right: 10px;
+}
+
+.half:nth-child(even) {
+	margin-right: 0;
+}
+
+.third {
+	float: left;
+	width: 200px;
+	margin-bottom: 10px;	
+}
+
+/*** Type Style ***/
+
+
+h2 {
+	font-family: "Zilla Slab", "Arial", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #007aad;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+}
+
+h4 {
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+h5 {
+	font-family: "Zilla Slab", "Arial", sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+	margin-left: 10px;
+}
+
+#footer h5 {
+	font-family: "Open Sans", "Arial", sans-serif;
+	font-size: 12px;
+}
+
+#footer h5:hover {
+	color: grey;
+}
+
+.subtext {
+	font-weight: bold;
+	text-align: center;
+}
